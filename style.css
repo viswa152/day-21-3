@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  body {
+    width: 100%;
+    background-image: url("https://wallpapercave.com/wp/wp2436369.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-position: center;
+  }
+  
+  .search-box {
+    height: 20vh;
+    text-align: center;
+    position: fixed;
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #c2010a;
+  }
+  
+  .input {
+    border-radius: 15px;
+    border: 1px solid white;
+    width: 100%;
+    padding: 2%;
+  }
+  
+  .search-btn {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height: auto;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: #890007;
+    color: white;
+  }
+  
+  .search-btn:hover {
+    background-color: white;
+    color: #890007;
+  }
+  
+  .country_row {
+    margin: auto;
+    padding: auto;
+    position: absolute;
+    z-index: -1;
+    top: 22vh;
+  }
+  .card {
+    background-color: transparent;
+  }
+  .card-header {
+    background-color: #f3f2c9;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .attribute {
+    text-align: right;
+    color: white;
+    font-size: 0.75rem;
+    background-color: #c2010a;
+    border: none;
+    margin: 0;
+  }
+  
+  .imageText {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  /* img {
+    max-height: 500px;
+  } */
+  
+  @media (max-width: 768px) {
+    .input {
+      padding: 5% 2%;
+    }
+  
+    .attribute {
+      font-size: 0.7rem;
+    }
+  
+    .imageText {
+      color: white;
+      font-weight: bold;
+      font-size: 1rem;
+    }
+  }
